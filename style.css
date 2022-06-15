@@ -1,0 +1,62 @@
+.body {
+    background-color: lavender;
+
+}
+
+.footer {
+    height: 20vh;
+    width: var(--vw);
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    margin: 70px 50px 0 50px;
+    width: var(--full-relative-width);
+    justify-content: center;
+    list-style: none;
+}
+
+.footer-list li {
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+.footer-list li a {
+    text-align: center;
+    height: 40px;
+    width: 40px;
+}
+/* hover effect footer icons */
+#fb img:hover {
+    border-radius: 20px;
+    box-shadow: 5px 0 1px 2px #7e7fd4;
+    transition: 0.2s ease-in;
+    height: 42px;
+
+}
+
+#ig img:hover {
+    border-radius: 10px;
+    box-shadow: 5px 0 1px 2px #953670;
+    transition: 0.2s ease-in;
+    height: 42px;
+
+}
+
+#tw :hover {
+    border-radius: 20px;
+    box-shadow: 5px 0 1px 2px #c2e8ff;
+    transition: 0.2s ease-in;
+    height: 42px;
+
+}
+.form{
+    text-align: center;
+    background-color: darkslategrey;
+}
